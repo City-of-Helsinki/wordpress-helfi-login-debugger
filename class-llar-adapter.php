@@ -12,7 +12,8 @@ class LLAR_Adapter
 
 	public function __construct()
 	{
-		$this->canDetect = class_exists( 'LLAR\Core\Helpers' );
+		$this->canDetect = class_exists( 'LLAR\Core\Helpers' )
+			&& class_exists( 'LLAR\Core\Config' );
 	}
 
 	public function detectIp(): string
