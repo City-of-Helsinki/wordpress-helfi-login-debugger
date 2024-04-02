@@ -4,7 +4,7 @@ namespace CityOfHelsinki\WordPress\LoginDebugger;
 
 /**
   * Plugin Name: WordPress Helsinki Login Debugger
-  * Description: Log login errors to comments.
+  * Description: Log login errors to comments. Log comments deleted on plugin deactivation.
   * Version: 1.0.0
   * License: GPLv3
   * Requires at least: 6.0
