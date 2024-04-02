@@ -7,8 +7,8 @@ namespace CityOfHelsinki\WordPress\LoginDebugger;
   * Description: Log login errors to comments.
   * Version: 1.0.0
   * License: GPLv3
-  * Requires at least: 5.7
-  * Requires PHP:      7.1
+  * Requires at least: 6.0
+  * Requires PHP:      7.4
   * Author: ArtCloud
   * Author URI: https://www.artcloud.fi
   */
